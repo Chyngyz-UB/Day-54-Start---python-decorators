@@ -67,7 +67,7 @@ def say_hello():
 def say_bye():
     print("Bye")
 
-#W ithout the @ syntactic sugar
+# Without the @ syntactic sugar
 def say_greeting():
     print("How are you?")
 decorated_function = delay_decorator(say_greeting)
